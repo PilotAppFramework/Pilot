@@ -1,0 +1,167 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AsyncSwift (2.0.4)
+  - CryptoSwift (0.8.3)
+  - Device (3.1.0)
+  - DZNEmptyDataSet (1.8.1)
+  - Eureka (4.2.0)
+  - FastComponent/Base (0.1.0):
+    - Localize-Swift
+    - Then
+    - XXLogger
+  - FastComponent/Component (0.1.0):
+    - FastComponent/Base
+    - FastComponent/UIKitEx
+  - FastComponent/DeviceEx (0.1.0):
+    - Device
+  - FastComponent/FoundationEx (0.1.0):
+    - AsyncSwift
+    - FastComponent/Base
+    - SwiftyJSON
+  - FastComponent/KingfisherEx (0.1.0):
+    - Kingfisher
+  - FastComponent/RxSwiftEx (0.1.0):
+    - FastComponent/Base
+    - RxSwift
+  - FastComponent/SafariServicesEx (0.1.0):
+    - FastComponent/Base
+    - FastComponent/UIKitEx
+  - FastComponent/SnapKitEx (0.1.0):
+    - SnapKit
+  - FastComponent/UIKitEx (0.1.0):
+    - FastComponent/Base
+    - Then
+  - GRDB.swift (2.4.2)
+  - HandyJSON (4.1.1)
+  - Kingfisher (4.8.0)
+  - Localize-Swift (2.0.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (11.0.2):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - PageMenu (2.0.0)
+  - Result (3.2.4)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+  - SnapKit (4.0.0)
+  - Spring (1.0.5)
+  - SVProgressHUD (2.2.5)
+  - SwiftDate (5.0.3)
+  - SwiftyJSON (4.1.0)
+  - SwiftyUserDefaults (3.0.1)
+  - Then (2.3.0)
+  - XXAutoLayout (1.0.1)
+  - XXLogger (1.0.0)
+
+DEPENDENCIES:
+  - AsyncSwift
+  - CryptoSwift (~> 0.8.0)
+  - Device
+  - DZNEmptyDataSet
+  - Eureka
+  - FastComponent/Base (from `../GitSubmodules/FastComponent`)
+  - FastComponent/Component (from `../GitSubmodules/FastComponent`)
+  - FastComponent/DeviceEx (from `../GitSubmodules/FastComponent`)
+  - FastComponent/FoundationEx (from `../GitSubmodules/FastComponent`)
+  - FastComponent/KingfisherEx (from `../GitSubmodules/FastComponent`)
+  - FastComponent/RxSwiftEx (from `../GitSubmodules/FastComponent`)
+  - FastComponent/SafariServicesEx (from `../GitSubmodules/FastComponent`)
+  - FastComponent/SnapKitEx (from `../GitSubmodules/FastComponent`)
+  - FastComponent/UIKitEx (from `../GitSubmodules/FastComponent`)
+  - GRDB.swift (~> 2.4.0)
+  - HandyJSON
+  - Localize-Swift
+  - MBProgressHUD (~> 1.1.0)
+  - MJRefresh
+  - Moya
+  - Moya/RxSwift
+  - PageMenu (from `../GitSubmodules/PageMenu`)
+  - RxCocoa
+  - RxSwift
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - SVProgressHUD
+  - SwiftDate
+  - SwiftyUserDefaults
+  - Then
+  - XXAutoLayout
+  - XXLogger
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AsyncSwift
+    - CryptoSwift
+    - Device
+    - DZNEmptyDataSet
+    - Eureka
+    - GRDB.swift
+    - HandyJSON
+    - Kingfisher
+    - Localize-Swift
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - SVProgressHUD
+    - SwiftDate
+    - SwiftyJSON
+    - SwiftyUserDefaults
+    - Then
+    - XXAutoLayout
+    - XXLogger
+
+EXTERNAL SOURCES:
+  FastComponent:
+    :path: "../GitSubmodules/FastComponent"
+  PageMenu:
+    :path: "../GitSubmodules/PageMenu"
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: c540239f3590bbaf4a35c3959c329dd5ed4e3eee
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+  CryptoSwift: 033efc3523865d19cc6ab6612fa17a62613b5dfa
+  Device: 8a21a61f5f938a12dadd44d82287996081b6919b
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Eureka: 0748c7bbb2560130e43c7bfa83e99c98854a1f42
+  FastComponent: 45537e0fabb69e45b9ab6c560fcfae0a388ebecb
+  GRDB.swift: 8875646f6334b0850619521255c16b98e2213548
+  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  PageMenu: 42f6460e4b37522b45b18e6176adadae5bb2f906
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Spring: 3c7666eccefdeb87140008dc81043f89f8dbb787
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftDate: 5c02893dd1f658de4bc6d817a86246140eec9ae3
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
+  XXAutoLayout: 86e0ca26aa02c856ea83efbb7d0d71cfaaad3372
+  XXLogger: 0e9a933fc07000d1a2ca2f1c8c662449b85c4ca6
+
+PODFILE CHECKSUM: dee020b457a82d192be069689cbe88c4e80990bf
+
+COCOAPODS: 1.5.3

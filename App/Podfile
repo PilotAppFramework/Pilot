@@ -1,0 +1,66 @@
+# platform :ios, '9.0'
+
+target 'App' do
+    use_frameworks!
+    
+    inhibit_all_warnings!
+    
+    # FastComponent
+    pod 'FastComponent', :subspecs => [
+    'Base',
+    'UIKitEx',
+    'RxSwiftEx',
+    'FoundationEx',
+    'KingfisherEx',
+    'SnapKitEx',
+    'DeviceEx',
+    'Component',
+    'SafariServicesEx',
+    
+    #    'MaterialEx',
+    #    'PullToRefreshEx',
+    #    'ConfigEx',
+    #    'MoyaRESTfulEx'
+    #    'UICustomEx',
+    ],:path => '../GitSubmodules/FastComponent'
+    
+    
+    # 语法糖
+    pod 'Then'
+    pod 'XXLogger'
+    pod 'AsyncSwift'
+    
+    # 本地化 # 设备 # 时间
+    pod 'Localize-Swift'
+    pod 'Device'
+    pod 'SwiftDate'
+    
+    # 数据库
+    pod 'GRDB.swift', '~> 2.4.0'
+    
+    # RX
+    pod 'RxCocoa'
+    pod 'RxSwift'
+    
+    # UI相关
+    pod 'DZNEmptyDataSet'   # -- oc
+    pod 'MJRefresh'         # -- oc
+    pod 'XXAutoLayout'      # -- oc
+    pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+    pod 'PageMenu',:path => '../GitSubmodules/PageMenu'
+    pod 'Eureka'
+    
+    # 网络/解析相关的
+    pod 'HandyJSON'
+    pod 'Moya'
+    pod 'Moya/RxSwift'
+    pod 'SwiftyUserDefaults'
+    
+    # 加密
+    pod 'CryptoSwift', '~> 0.8.0'
+    
+    # SV MB 共存
+    pod 'SVProgressHUD'  # -- oc
+    pod 'MBProgressHUD', '~> 1.1.0'  # -- oc
+
+end

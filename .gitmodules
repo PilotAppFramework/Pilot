@@ -1,0 +1,6 @@
+[submodule "GitSubmodules/FastComponent"]
+	path = GitSubmodules/FastComponent
+	url = https://github.com/Rdxer/FastComponent.git
+[submodule "GitSubmodules/PageMenu"]
+	path = GitSubmodules/PageMenu
+	url = https://github.com/Rdxer/PageMenu
