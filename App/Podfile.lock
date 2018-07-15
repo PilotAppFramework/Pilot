@@ -3,7 +3,7 @@ PODS:
   - AsyncSwift (2.0.4)
   - CryptoSwift (0.8.3)
   - Device (3.1.0)
-  - DZNEmptyDataSet (1.8.1)
+  - EmptyDataSet-Swift (4.0.5)
   - Eureka (4.2.0)
   - FastComponent/Base (0.1.0):
     - Localize-Swift
@@ -64,7 +64,7 @@ DEPENDENCIES:
   - AsyncSwift
   - CryptoSwift (~> 0.8.0)
   - Device
-  - DZNEmptyDataSet
+  - EmptyDataSet-Swift (~> 4.0.5)
   - Eureka
   - FastComponent/Base (from `../GitSubmodules/FastComponent`)
   - FastComponent/Component (from `../GitSubmodules/FastComponent`)
@@ -99,7 +99,7 @@ SPEC REPOS:
     - AsyncSwift
     - CryptoSwift
     - Device
-    - DZNEmptyDataSet
+    - EmptyDataSet-Swift
     - Eureka
     - GRDB.swift
     - HandyJSON
@@ -138,7 +138,7 @@ SPEC CHECKSUMS:
   AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
   CryptoSwift: 033efc3523865d19cc6ab6612fa17a62613b5dfa
   Device: 8a21a61f5f938a12dadd44d82287996081b6919b
-  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EmptyDataSet-Swift: a25810f50c3adfaa3840aa33ae8b5ba12ac29279
   Eureka: 0748c7bbb2560130e43c7bfa83e99c98854a1f42
   FastComponent: 45537e0fabb69e45b9ab6c560fcfae0a388ebecb
   GRDB.swift: 8875646f6334b0850619521255c16b98e2213548
@@ -162,6 +162,6 @@ SPEC CHECKSUMS:
   XXAutoLayout: 86e0ca26aa02c856ea83efbb7d0d71cfaaad3372
   XXLogger: 0e9a933fc07000d1a2ca2f1c8c662449b85c4ca6
 
-PODFILE CHECKSUM: dee020b457a82d192be069689cbe88c4e80990bf
+PODFILE CHECKSUM: 15ef289345f45f7d67ca49ca0e71d6cf388939e0
 
 COCOAPODS: 1.5.3

@@ -43,12 +43,14 @@ target 'App' do
     pod 'RxSwift'
     
     # UI相关
-    pod 'DZNEmptyDataSet'   # -- oc
-    pod 'MJRefresh'         # -- oc
-    pod 'XXAutoLayout'      # -- oc
-    pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+    pod 'EmptyDataSet-Swift', '~> 4.0.5'   #  <<   pod 'DZNEmptyDataSet'   # -- oc
+    pod 'MJRefresh'         # -- oc   // TODO 换成 swift 实现 上拉刷新 下拉加载更多
+    pod 'XXAutoLayout'      # -- oc   // TODO 换成 swift 实现 布局扩展
     pod 'PageMenu',:path => '../GitSubmodules/PageMenu'
     pod 'Eureka'
+    
+    # 动画
+    pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
     
     # 网络/解析相关的
     pod 'HandyJSON'
@@ -60,7 +62,7 @@ target 'App' do
     pod 'CryptoSwift', '~> 0.8.0'
     
     # SV MB 共存
-    pod 'SVProgressHUD'  # -- oc
-    pod 'MBProgressHUD', '~> 1.1.0'  # -- oc
+    pod 'SVProgressHUD'  # -- oc   // TODO 换成 swift 实现 HUD
+    pod 'MBProgressHUD', '~> 1.1.0'  # -- oc   // TODO 换成 swift 实现 HUD
 
 end
