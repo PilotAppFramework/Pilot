@@ -27,7 +27,6 @@ target 'App' do
     
     # 语法糖
     pod 'Then'
-    pod 'XXLogger'
     pod 'AsyncSwift'
     
     # 本地化 # 设备 # 时间
@@ -43,6 +42,7 @@ target 'App' do
     pod 'RxSwift'
     
     # UI相关
+    pod 'R.swift'
     pod 'EmptyDataSet-Swift', '~> 4.0.5'   #  <<   pod 'DZNEmptyDataSet'   # -- oc
     pod 'MJRefresh'         # -- oc   // TODO 换成 swift 实现 上拉刷新 下拉加载更多
     pod 'XXAutoLayout'      # -- oc   // TODO 换成 swift 实现 布局扩展

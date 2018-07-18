@@ -8,7 +8,6 @@ PODS:
   - FastComponent/Base (0.1.0):
     - Localize-Swift
     - Then
-    - XXLogger
   - FastComponent/Component (0.1.0):
     - FastComponent/Base
     - FastComponent/UIKitEx
@@ -46,6 +45,9 @@ PODS:
     - Moya/Core
     - RxSwift (~> 4.0)
   - PageMenu (2.0.0)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
   - Result (3.2.4)
   - RxCocoa (4.2.0):
     - RxSwift (~> 4.0)
@@ -58,7 +60,6 @@ PODS:
   - SwiftyUserDefaults (3.0.1)
   - Then (2.3.0)
   - XXAutoLayout (1.0.1)
-  - XXLogger (1.0.0)
 
 DEPENDENCIES:
   - AsyncSwift
@@ -83,6 +84,7 @@ DEPENDENCIES:
   - Moya
   - Moya/RxSwift
   - PageMenu (from `../GitSubmodules/PageMenu`)
+  - R.swift
   - RxCocoa
   - RxSwift
   - Spring (from `https://github.com/MengTo/Spring.git`)
@@ -91,7 +93,6 @@ DEPENDENCIES:
   - SwiftyUserDefaults
   - Then
   - XXAutoLayout
-  - XXLogger
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -108,6 +109,8 @@ SPEC REPOS:
     - MBProgressHUD
     - MJRefresh
     - Moya
+    - R.swift
+    - R.swift.Library
     - Result
     - RxCocoa
     - RxSwift
@@ -118,7 +121,6 @@ SPEC REPOS:
     - SwiftyUserDefaults
     - Then
     - XXAutoLayout
-    - XXLogger
 
 EXTERNAL SOURCES:
   FastComponent:
@@ -140,7 +142,7 @@ SPEC CHECKSUMS:
   Device: 8a21a61f5f938a12dadd44d82287996081b6919b
   EmptyDataSet-Swift: a25810f50c3adfaa3840aa33ae8b5ba12ac29279
   Eureka: 0748c7bbb2560130e43c7bfa83e99c98854a1f42
-  FastComponent: 45537e0fabb69e45b9ab6c560fcfae0a388ebecb
+  FastComponent: 3f3d6f7618fb69cf995b31f53b8853b0f2450225
   GRDB.swift: 8875646f6334b0850619521255c16b98e2213548
   HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
   Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
@@ -149,6 +151,8 @@ SPEC CHECKSUMS:
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   Moya: a725035953bc1c0eb1be505ab903984501d82440
   PageMenu: 42f6460e4b37522b45b18e6176adadae5bb2f906
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
@@ -160,8 +164,7 @@ SPEC CHECKSUMS:
   SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
   XXAutoLayout: 86e0ca26aa02c856ea83efbb7d0d71cfaaad3372
-  XXLogger: 0e9a933fc07000d1a2ca2f1c8c662449b85c4ca6
 
-PODFILE CHECKSUM: 15ef289345f45f7d67ca49ca0e71d6cf388939e0
+PODFILE CHECKSUM: 73fbb3428b3b63aaff708ff686c034cf32f676ca
 
 COCOAPODS: 1.5.3
