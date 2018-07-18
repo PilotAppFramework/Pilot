@@ -4,3 +4,6 @@
 [submodule "GitSubmodules/PageMenu"]
 	path = GitSubmodules/PageMenu
 	url = https://github.com/Rdxer/PageMenu
+[submodule "Tools/PilotCLI"]
+	path = Tools/PilotCLI
+	url = https://github.com/Rdxer/PilotCLI.git
