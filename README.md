@@ -1,6 +1,23 @@
 # Pilot#
 一个 iOS App 快速开发框架。
 
+# 安装
+前提：
+1. cocoapods
+2. xcode Version 9.4.1 (9F2000)
+3. Swfit4.1
+
+实施：
+1. git clone 到本地
+    
+    $ git clone  https://github.com/Rdxer/Pilot.git
+    $ git checkout -b dev origin/feature/结构修改
+    $ cd Pilot
+    $ ./init.sh
+    $ open App/App.xcworkspace
+    
+
+
 # 功能
 
 
