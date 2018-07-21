@@ -12,7 +12,7 @@ import Foundation
 class AppConfig:NSObject{
     
     ///
-    public var host:String = env(key: "host", default: "")
+    public var host:String = Env.URL
     
     /// 默认 配置
     public static var shared:AppConfig!

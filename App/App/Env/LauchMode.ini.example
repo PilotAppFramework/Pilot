@@ -1,0 +1,9 @@
+[LauchMode]
+# 启动模式  其实就是填个文件名,可以不写ini后缀
+# 注意: 如果是 Release 模式下, 会强制使用 Release 的配置
+
+mode=Debug
+#mode=Release
+#mode=Debugxxx
+
+

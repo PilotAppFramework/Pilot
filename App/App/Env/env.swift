@@ -8,9 +8,6 @@
 
 import Foundation
 
-func env(key:String,default defaultValue:String)->String {
+struct Env {
     
-    
-    
-    return defaultValue
 }
