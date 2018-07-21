@@ -9,13 +9,15 @@
 
 实施：
 1. git clone 到本地
-    
+  
+```  
     $ git clone  https://github.com/Rdxer/Pilot.git
     $ git checkout -b dev origin/feature/结构修改
     $ cd Pilot
     $ ./init.sh
     $ open App/App.xcworkspace
     
+```
 
 
 # 功能
