@@ -8,15 +8,15 @@
 
 import UIKit
 
+/// 切换 rootWindows 的操作都放这里
 class AppRoutes: NSObject {
     
     public static let shared = AppRoutes.init()
     
     private override init() {}
     
+    /// 启动之后自动
     public func lauchAutoChooseVC() -> UIViewController{
-        
-        
         
 //        guard AuthManager.shared.isLogin else{
 //            return  LoginViewController.init()
@@ -34,7 +34,7 @@ class AppRoutes: NSObject {
         
         
 //        return MainTabBarController.init()
-        return UIViewController.init()
+        return LoginViewController.init()
     }
     
 }
