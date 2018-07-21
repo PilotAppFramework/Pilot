@@ -3,7 +3,7 @@
 
 # 安装
 前提：
-1. cocoapods
+1. cocoapods 1.5.3
 2. xcode Version 9.4.1 (9F2000)
 3. Swfit4.1
 
