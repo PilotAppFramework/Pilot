@@ -8,9 +8,12 @@
 3. Swfit4.1
 
 实施：
-1. git clone 到本地
+1. 打开 终端 
   
-```  
+``` 
+    #  自己想放哪里 cd 哪里
+    $ cd ~/Desktop    
+    
     $ git clone --recursive  https://github.com/Rdxer/Pilot.git
     $ cd Pilot
     $ git checkout -b dev origin/feature/结构修改
