@@ -14,6 +14,9 @@
     $ git clone --recursive  https://github.com/Rdxer/Pilot.git
     $ cd Pilot
     $ git checkout -b dev origin/feature/结构修改
+    $ cd GitSubmodules/FastComponent
+    $ git checkout -b dev_pilot origin/dev_pilot
+    $ cd ../..
     $ ./init.sh
     $ open App/App.xcworkspace
     
