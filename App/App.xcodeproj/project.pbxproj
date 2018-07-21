@@ -28,6 +28,8 @@
 		3EA1E1A421034835009B163A /* APIProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E19E21034835009B163A /* APIProviderManager.swift */; };
 		3EA1E1A7210348E4009B163A /* Dictionary+Ex+Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E1A6210348E4009B163A /* Dictionary+Ex+Net.swift */; };
 		3EA1E1A9210348F1009B163A /* String+Ex+Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E1A8210348F1009B163A /* String+Ex+Net.swift */; };
+		3EA1E1AE2103574F009B163A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E1AD2103574F009B163A /* RegisterViewController.swift */; };
+		3EA1E1B021035804009B163A /* RefindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E1AF21035804009B163A /* RefindPasswordViewController.swift */; };
 		CCC5360650B06997E2133480 /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0630760FB43F2C20B02F180 /* Pods_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		3EA1E19E21034835009B163A /* APIProviderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProviderManager.swift; sourceTree = "<group>"; };
 		3EA1E1A6210348E4009B163A /* Dictionary+Ex+Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Ex+Net.swift"; sourceTree = "<group>"; };
 		3EA1E1A8210348F1009B163A /* String+Ex+Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ex+Net.swift"; sourceTree = "<group>"; };
+		3EA1E1AD2103574F009B163A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3EA1E1AF21035804009B163A /* RefindPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefindPasswordViewController.swift; sourceTree = "<group>"; };
 		A0630760FB43F2C20B02F180 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7332C10D11170FA0700B508 /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
 		CE03AAF43DDD90341068D748 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
@@ -217,6 +221,8 @@
 			isa = PBXGroup;
 			children = (
 				3EA1E194210346FB009B163A /* LoginViewController.swift */,
+				3EA1E1AD2103574F009B163A /* RegisterViewController.swift */,
+				3EA1E1AF21035804009B163A /* RefindPasswordViewController.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -465,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E21FC9E2100922100DEA67A /* Env.swift in Sources */,
+				3EA1E1AE2103574F009B163A /* RegisterViewController.swift in Sources */,
 				3EA1E1A7210348E4009B163A /* Dictionary+Ex+Net.swift in Sources */,
 				3E0F77D320FB28EB0095EA95 /* Facade.swift in Sources */,
 				3EA1E195210346FB009B163A /* LoginViewController.swift in Sources */,
@@ -474,6 +481,7 @@
 				3EA1E1A9210348F1009B163A /* String+Ex+Net.swift in Sources */,
 				3E0F77FF20FEEC280095EA95 /* R.generated.swift in Sources */,
 				3E21FCA42100990B00DEA67A /* Env.generated.swift in Sources */,
+				3EA1E1B021035804009B163A /* RefindPasswordViewController.swift in Sources */,
 				3E0F77F920FECB910095EA95 /* SingletonProtoc.swift in Sources */,
 				3EA1E1A221034835009B163A /* NetConfig.swift in Sources */,
 				3E0F77F620FDF2F00095EA95 /* AppConfig.swift in Sources */,
