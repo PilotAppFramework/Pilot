@@ -316,7 +316,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#\"$SRCROOT/../pilot\" make:env\n~/Library/Developer/Xcode/DerivedData/PilotCLI-dwkqqskhbplwxqetzbzdmpphhilb/Build/Products/Debug/PilotCLI make:env\n";
+			shellScript = "\"$SRCROOT/../pilot\" make:env\n#~/Library/Developer/Xcode/DerivedData/PilotCLI-dwkqqskhbplwxqetzbzdmpphhilb/Build/Products/Debug/PilotCLI make:env\n";
 		};
 		5DF0C6D794D64580C6D2994B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
