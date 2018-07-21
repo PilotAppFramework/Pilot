@@ -11,9 +11,9 @@
 1. git clone 到本地
   
 ```  
-    $ git clone  https://github.com/Rdxer/Pilot.git
-    $ git checkout -b dev origin/feature/结构修改
+    $ git clone --recursive  https://github.com/Rdxer/Pilot.git
     $ cd Pilot
+    $ git checkout -b dev origin/feature/结构修改
     $ ./init.sh
     $ open App/App.xcworkspace
     
