@@ -13,7 +13,7 @@ struct NetConfig {
     // MARK: - 配置信息
     // url
     public static var baseURLString:String{
-        return Env.URL
+        return Env.API.HOST
     }
     
     // token
