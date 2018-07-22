@@ -11,5 +11,5 @@ import Foundation
 //typealias loger = Facade.Loger
 
 func a() -> Void {
-//    Loger.d(Env.XX.APP_DEBUG)
+    
 }
