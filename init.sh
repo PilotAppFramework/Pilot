@@ -27,4 +27,10 @@ swift build
 
 echo 构建 CLI 工具 结束 ✅
 
+echo 开始执行 pod install 🆕
+
+cd ../../App
+pod install
+
+echo 执行 pod install ✅
 

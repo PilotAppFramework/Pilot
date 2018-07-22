@@ -19,7 +19,8 @@ target 'App' do
     
     #    'MaterialEx',
     #    'PullToRefreshEx',
-    #    'ConfigEx',
+    #    'ConfigEx',  
+        'MoyaEx'
     #    'MoyaRESTfulEx'
     #    'UICustomEx',
     ],:path => '../GitSubmodules/FastComponent'

@@ -15,15 +15,21 @@
 		3E0F77D320FB28EB0095EA95 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77D220FB28EB0095EA95 /* Facade.swift */; };
 		3E0F77D520FC95570095EA95 /* AppTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77D420FC95570095EA95 /* AppTypeAlias.swift */; };
 		3E0F77D720FC95680095EA95 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77D620FC95680095EA95 /* TypeAlias.swift */; };
-		3E0F77F220FDD1050095EA95 /* INIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77EF20FDD1050095EA95 /* INIError.swift */; };
-		3E0F77F320FDD1050095EA95 /* Scanner+Ex+INI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77F020FDD1050095EA95 /* Scanner+Ex+INI.swift */; };
-		3E0F77F420FDD1050095EA95 /* INI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77F120FDD1050095EA95 /* INI.swift */; };
 		3E0F77F620FDF2F00095EA95 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77F520FDF2F00095EA95 /* AppConfig.swift */; };
 		3E0F77F920FECB910095EA95 /* SingletonProtoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77F820FECB910095EA95 /* SingletonProtoc.swift */; };
 		3E0F77FB20FECDC60095EA95 /* Facade+Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77FA20FECDC60095EA95 /* Facade+Singleton.swift */; };
 		3E0F77FF20FEEC280095EA95 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77FE20FEEC270095EA95 /* R.generated.swift */; };
 		3E21FC9E2100922100DEA67A /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21FC9D2100922100DEA67A /* Env.swift */; };
 		3E21FCA42100990B00DEA67A /* Env.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21FCA02100979300DEA67A /* Env.generated.swift */; };
+		3EA1E195210346FB009B163A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E194210346FB009B163A /* LoginViewController.swift */; };
+		3EA1E19F21034835009B163A /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E19921034835009B163A /* UserApi.swift */; };
+		3EA1E1A021034835009B163A /* FileWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E19A21034835009B163A /* FileWebService.swift */; };
+		3EA1E1A221034835009B163A /* NetConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E19C21034835009B163A /* NetConfig.swift */; };
+		3EA1E1A421034835009B163A /* APIProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E19E21034835009B163A /* APIProviderManager.swift */; };
+		3EA1E1A7210348E4009B163A /* Dictionary+Ex+Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E1A6210348E4009B163A /* Dictionary+Ex+Net.swift */; };
+		3EA1E1A9210348F1009B163A /* String+Ex+Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E1A8210348F1009B163A /* String+Ex+Net.swift */; };
+		3EA1E1AE2103574F009B163A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E1AD2103574F009B163A /* RegisterViewController.swift */; };
+		3EA1E1B021035804009B163A /* RefindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E1AF21035804009B163A /* RefindPasswordViewController.swift */; };
 		CCC5360650B06997E2133480 /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0630760FB43F2C20B02F180 /* Pods_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +43,6 @@
 		3E0F77D220FB28EB0095EA95 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		3E0F77D420FC95570095EA95 /* AppTypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypeAlias.swift; sourceTree = "<group>"; };
 		3E0F77D620FC95680095EA95 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
-		3E0F77EF20FDD1050095EA95 /* INIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INIError.swift; sourceTree = "<group>"; };
-		3E0F77F020FDD1050095EA95 /* Scanner+Ex+INI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scanner+Ex+INI.swift"; sourceTree = "<group>"; };
-		3E0F77F120FDD1050095EA95 /* INI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INI.swift; sourceTree = "<group>"; };
 		3E0F77F520FDF2F00095EA95 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		3E0F77F820FECB910095EA95 /* SingletonProtoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonProtoc.swift; sourceTree = "<group>"; };
 		3E0F77FA20FECDC60095EA95 /* Facade+Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Facade+Singleton.swift"; sourceTree = "<group>"; };
@@ -50,6 +53,15 @@
 		3E21FC9D2100922100DEA67A /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
 		3E21FC9F2100968B00DEA67A /* LauchMode.ini */ = {isa = PBXFileReference; lastKnownFileType = text; path = LauchMode.ini; sourceTree = "<group>"; };
 		3E21FCA02100979300DEA67A /* Env.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.generated.swift; sourceTree = "<group>"; };
+		3EA1E194210346FB009B163A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3EA1E19921034835009B163A /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		3EA1E19A21034835009B163A /* FileWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileWebService.swift; sourceTree = "<group>"; };
+		3EA1E19C21034835009B163A /* NetConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetConfig.swift; sourceTree = "<group>"; };
+		3EA1E19E21034835009B163A /* APIProviderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProviderManager.swift; sourceTree = "<group>"; };
+		3EA1E1A6210348E4009B163A /* Dictionary+Ex+Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Ex+Net.swift"; sourceTree = "<group>"; };
+		3EA1E1A8210348F1009B163A /* String+Ex+Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ex+Net.swift"; sourceTree = "<group>"; };
+		3EA1E1AD2103574F009B163A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3EA1E1AF21035804009B163A /* RefindPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefindPasswordViewController.swift; sourceTree = "<group>"; };
 		A0630760FB43F2C20B02F180 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7332C10D11170FA0700B508 /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
 		CE03AAF43DDD90341068D748 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,15 +92,17 @@
 			isa = PBXGroup;
 			children = (
 				3E0F77F520FDF2F00095EA95 /* AppConfig.swift */,
+				3EA1E19C21034835009B163A /* NetConfig.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
 		};
-		3E0F77B620FB173D0095EA95 /* Classes */ = {
+		3E0F77B620FB173D0095EA95 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				3EA1E1932103468A009B163A /* Auth */,
 			);
-			path = Classes;
+			path = Module;
 			sourceTree = "<group>";
 		};
 		3E0F77B820FB17B10095EA95 /* App */ = {
@@ -96,7 +110,9 @@
 			children = (
 				3E0F77D420FC95570095EA95 /* AppTypeAlias.swift */,
 				3E0F77CB20FB1B040095EA95 /* Lauch */,
-				3E0F77B620FB173D0095EA95 /* Classes */,
+				3EA1E19621034736009B163A /* Net */,
+				3EA1E1AC210355A4009B163A /* Manager */,
+				3E0F77B620FB173D0095EA95 /* Module */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -144,10 +160,11 @@
 		3E0F77CE20FB22C40095EA95 /* AppFramework */ = {
 			isa = PBXGroup;
 			children = (
+				3EA1E1A5210348D1009B163A /* Ex */,
 				3E0F77D220FB28EB0095EA95 /* Facade.swift */,
 				3E0F77D620FC95680095EA95 /* TypeAlias.swift */,
+				3EA1E19721034771009B163A /* BaseClass */,
 				3E0F77F720FECB6D0095EA95 /* Singleton */,
-				3E0F77EE20FDD1050095EA95 /* INI */,
 				3E0F77D820FC98CA0095EA95 /* FacadeProtocol */,
 			);
 			path = AppFramework;
@@ -158,17 +175,6 @@
 			children = (
 			);
 			path = FacadeProtocol;
-			sourceTree = "<group>";
-		};
-		3E0F77EE20FDD1050095EA95 /* INI */ = {
-			isa = PBXGroup;
-			children = (
-				3E0F77F120FDD1050095EA95 /* INI.swift */,
-				3E0F77EF20FDD1050095EA95 /* INIError.swift */,
-				3E0F77F020FDD1050095EA95 /* Scanner+Ex+INI.swift */,
-			);
-			name = INI;
-			path = ../../../Temp/INI;
 			sourceTree = "<group>";
 		};
 		3E0F77F720FECB6D0095EA95 /* Singleton */ = {
@@ -209,6 +215,57 @@
 				3E0F77CE20FB22C40095EA95 /* AppFramework */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		3EA1E1932103468A009B163A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3EA1E194210346FB009B163A /* LoginViewController.swift */,
+				3EA1E1AD2103574F009B163A /* RegisterViewController.swift */,
+				3EA1E1AF21035804009B163A /* RefindPasswordViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3EA1E19621034736009B163A /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				3EA1E19E21034835009B163A /* APIProviderManager.swift */,
+				3EA1E19821034835009B163A /* Api */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		3EA1E19721034771009B163A /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		3EA1E19821034835009B163A /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				3EA1E19921034835009B163A /* UserApi.swift */,
+				3EA1E19A21034835009B163A /* FileWebService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		3EA1E1A5210348D1009B163A /* Ex */ = {
+			isa = PBXGroup;
+			children = (
+				3EA1E1A6210348E4009B163A /* Dictionary+Ex+Net.swift */,
+				3EA1E1A8210348F1009B163A /* String+Ex+Net.swift */,
+			);
+			path = Ex;
+			sourceTree = "<group>";
+		};
+		3EA1E1AC210355A4009B163A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		EB14EF635B4CF89198151052 /* Frameworks */ = {
@@ -413,20 +470,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E0F77F220FDD1050095EA95 /* INIError.swift in Sources */,
 				3E21FC9E2100922100DEA67A /* Env.swift in Sources */,
+				3EA1E1AE2103574F009B163A /* RegisterViewController.swift in Sources */,
+				3EA1E1A7210348E4009B163A /* Dictionary+Ex+Net.swift in Sources */,
 				3E0F77D320FB28EB0095EA95 /* Facade.swift in Sources */,
+				3EA1E195210346FB009B163A /* LoginViewController.swift in Sources */,
 				3E0F77CD20FB22540095EA95 /* AppDelegate.swift in Sources */,
+				3EA1E1A021034835009B163A /* FileWebService.swift in Sources */,
 				3E0F77D520FC95570095EA95 /* AppTypeAlias.swift in Sources */,
-				3E0F77F420FDD1050095EA95 /* INI.swift in Sources */,
-				3E0F77F320FDD1050095EA95 /* Scanner+Ex+INI.swift in Sources */,
+				3EA1E1A9210348F1009B163A /* String+Ex+Net.swift in Sources */,
 				3E0F77FF20FEEC280095EA95 /* R.generated.swift in Sources */,
 				3E21FCA42100990B00DEA67A /* Env.generated.swift in Sources */,
+				3EA1E1B021035804009B163A /* RefindPasswordViewController.swift in Sources */,
 				3E0F77F920FECB910095EA95 /* SingletonProtoc.swift in Sources */,
+				3EA1E1A221034835009B163A /* NetConfig.swift in Sources */,
 				3E0F77F620FDF2F00095EA95 /* AppConfig.swift in Sources */,
 				3E0F77D120FB28930095EA95 /* AppRoutes.swift in Sources */,
 				3E0F77D720FC95680095EA95 /* TypeAlias.swift in Sources */,
+				3EA1E19F21034835009B163A /* UserApi.swift in Sources */,
 				3E0F77FB20FECDC60095EA95 /* Facade+Singleton.swift in Sources */,
+				3EA1E1A421034835009B163A /* APIProviderManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
