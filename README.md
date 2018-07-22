@@ -3,14 +3,17 @@
 
 # 安装
 前提：
-1. cocoapods
+1. cocoapods 1.5.3
 2. xcode Version 9.4.1 (9F2000)
 3. Swfit4.1
 
 实施：
-1. git clone 到本地
+1. 打开 终端 
   
-```  
+``` 
+    #  自己想放哪里 cd 哪里
+    $ cd ~/Desktop    
+    
     $ git clone --recursive  https://github.com/Rdxer/Pilot.git
     $ cd Pilot
     $ git checkout -b dev origin/feature/结构修改
@@ -21,6 +24,8 @@
     $ open App/App.xcworkspace
     
 ```
+
+2. `cmd + b` 编译项目。 稍等 几分钟☕️。。。 到这里安装步骤结束 🍻
 
 
 # 功能
