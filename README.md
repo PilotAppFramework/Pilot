@@ -11,6 +11,8 @@
 
   前往  https://github.com/Rdxer/PilotScript
   
+  or
+  
 实施2：
 1. 打开 终端 
   
