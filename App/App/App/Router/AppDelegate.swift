@@ -20,6 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         initWindow()
         
+        _ = Facade.shared.singleton(type: AppMainDB.self)
+        
+//        _ = Facade.shared.singleton(type: AppUserDB.self,maps: "{\"uid\":\"1\"}")
+//        _ = Facade.shared.singleton(type: AppUserDB.self,maps: "{\"uid\":\"2\"}")
+        
         return true
     }
 }
