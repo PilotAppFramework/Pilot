@@ -10,5 +10,21 @@ import Foundation
 import HandyJSON
 
 protocol SingletonProtocol:HandyJSON {
-        
+    var maps:String?{ get set}
+    func didInit(facade:Facade)
+    func willDeinit(facade:Facade)
+    func donNeedInitialized(maps:String)->Bool
 }
+
+
+extension SingletonProtocol{
+    
+    public func donNeedInitialized(maps:String)->Bool{
+        if maps == self.maps {
+            return true
+        }
+        return false
+    }
+
+}
+

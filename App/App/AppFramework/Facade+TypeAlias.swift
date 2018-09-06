@@ -13,7 +13,10 @@ import FastComponent
 // MARK: - 框架内统一到这里
 extension Facade{
     
-    
+    /// log
+    public var log:XXLoger{
+        return _log
+    }
     
     
     
