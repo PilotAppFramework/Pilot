@@ -18,9 +18,9 @@ class AppRoutes: NSObject {
     /// 启动之后自动
     public func lauchAutoChooseVC() -> UIViewController{
         
-//        guard AuthManager.shared.isLogin else{
-//            return  LoginViewController.init()
-//        }
+        guard Facade.shared.singleton(type: AuthServer.self).isLogin else{
+            return  LoginViewController.init()
+        }
         
 #if DEBUG
 
@@ -34,7 +34,7 @@ class AppRoutes: NSObject {
         
         
 //        return MainTabBarController.init()
-        return LoginViewController.init()
+        return RegisterViewController.init()
     }
 }
 
