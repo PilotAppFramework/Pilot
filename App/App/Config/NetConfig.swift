@@ -19,7 +19,7 @@ struct NetConfig {
     // token
     public static var token:String? = nil{
         didSet{
-            Loger.w("刷新了 Token:>>>> \(token ?? "空的")")
+            log.w("刷新了 Token:>>>> \(token ?? "空的")")
         }
     }
     

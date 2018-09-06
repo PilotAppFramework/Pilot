@@ -11,15 +11,37 @@ import FastComponent
 
 class Facade {
     public static var shared:Facade!
+    
+    /// log
+    public var log:XXLoger{
+        return _log
+    }
+    
+    private var _log:XXLoger!
+    
+    /// 缓存池
     public var cachePool:[String:Any] = [:]
+    
+    /// 单例缓存池
     public var singletonPool:[String:Any] = [:]
     
+    /// 启动参数
+    private var application: UIApplication!
+    private var launchOptions: [UIApplicationLaunchOptionsKey: Any]?
+    
+    /// 重新初始化
+    public func reInit(){
+        Facade.initFacade(application, didFinishLaunchingWithOptions: launchOptions)
+    }
+
 }
 
 extension Facade{
     public static func initFacade(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?){
         shared = Facade.init()
-        
+        shared.application = application
+        shared.launchOptions = launchOptions
+        shared._log = XXLoger.init()
         
     }
 }

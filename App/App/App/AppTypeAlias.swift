@@ -8,8 +8,5 @@
 
 import Foundation
 
-//typealias loger = Facade.Loger
+var log = Facade.shared.log
 
-func a() -> Void {
-    
-}

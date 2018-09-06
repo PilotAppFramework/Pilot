@@ -10,7 +10,11 @@ import Foundation
 
 
 extension Facade{
+    /**
+     获取该对象的单例
+    */
     public func singleton<T:SingletonProtocol>(type: T.Type)->T{
+        
         let id = String(describing: type)
         
         if let si = singletonPool[id] as? T{
@@ -23,4 +27,6 @@ extension Facade{
         
         return t!;
     }
+    
+    
 }
