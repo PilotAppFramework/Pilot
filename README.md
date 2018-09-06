@@ -7,7 +7,13 @@
 2. xcode Version 9.4.1 (9F2000)
 3. Swfit4.1
 
-实施：
+实施1：
+
+  前往  https://github.com/Rdxer/PilotScript
+  
+  or
+  
+实施2：
 1. 打开 终端 
   
 ``` 
