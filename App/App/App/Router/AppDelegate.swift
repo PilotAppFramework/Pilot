@@ -18,9 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Facade.initFacade(application, didFinishLaunchingWithOptions: launchOptions)
         
+        // 强制注册
+        _ = Facade.shared.singleton(type: AppMainDB.self)
+        
         initWindow()
         
-        _ = Facade.shared.singleton(type: AppMainDB.self)
+        
         
 //        _ = Facade.shared.singleton(type: AppUserDB.self,maps: "{\"uid\":\"1\"}")
 //        _ = Facade.shared.singleton(type: AppUserDB.self,maps: "{\"uid\":\"2\"}")
