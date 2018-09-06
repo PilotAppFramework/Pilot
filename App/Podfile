@@ -1,4 +1,4 @@
-# platform :ios, '9.0'
+platform :ios, '9.0'
 
 target 'App' do
     use_frameworks!
@@ -16,6 +16,7 @@ target 'App' do
     'DeviceEx',
     'Component',
     'SafariServicesEx',
+    'GRDBEx',
     
     #    'MaterialEx',
     #    'PullToRefreshEx',

@@ -17,6 +17,9 @@ PODS:
     - AsyncSwift
     - FastComponent/Base
     - SwiftyJSON
+  - FastComponent/GRDBEx (0.1.0):
+    - FastComponent/Base
+    - GRDB.swift
   - FastComponent/KingfisherEx (0.1.0):
     - Kingfisher
   - FastComponent/MoyaEx (0.1.0):
@@ -79,6 +82,7 @@ DEPENDENCIES:
   - FastComponent/Component (from `../GitSubmodules/FastComponent`)
   - FastComponent/DeviceEx (from `../GitSubmodules/FastComponent`)
   - FastComponent/FoundationEx (from `../GitSubmodules/FastComponent`)
+  - FastComponent/GRDBEx (from `../GitSubmodules/FastComponent`)
   - FastComponent/KingfisherEx (from `../GitSubmodules/FastComponent`)
   - FastComponent/MoyaEx (from `../GitSubmodules/FastComponent`)
   - FastComponent/RxSwiftEx (from `../GitSubmodules/FastComponent`)
@@ -151,7 +155,7 @@ SPEC CHECKSUMS:
   Device: 8a21a61f5f938a12dadd44d82287996081b6919b
   EmptyDataSet-Swift: a25810f50c3adfaa3840aa33ae8b5ba12ac29279
   Eureka: 0748c7bbb2560130e43c7bfa83e99c98854a1f42
-  FastComponent: b8620723abb19aa840c60cf5385ac57d231239a4
+  FastComponent: b7f7b658ea9f5369c40d49cc9a7ea41cbe73f618
   GRDB.swift: 8875646f6334b0850619521255c16b98e2213548
   HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
   Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
@@ -174,6 +178,6 @@ SPEC CHECKSUMS:
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
   XXAutoLayout: 86e0ca26aa02c856ea83efbb7d0d71cfaaad3372
 
-PODFILE CHECKSUM: c74cdfb14b0be9c64bd45183a2333b0a68a0be18
+PODFILE CHECKSUM: 06c3b41bc0cf15920c482371c86444847a4f1c82
 
 COCOAPODS: 1.5.3
