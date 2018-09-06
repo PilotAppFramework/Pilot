@@ -14,13 +14,15 @@
 		3E0F77D120FB28930095EA95 /* AppRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77D020FB28930095EA95 /* AppRoutes.swift */; };
 		3E0F77D320FB28EB0095EA95 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77D220FB28EB0095EA95 /* Facade.swift */; };
 		3E0F77D520FC95570095EA95 /* AppTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77D420FC95570095EA95 /* AppTypeAlias.swift */; };
-		3E0F77D720FC95680095EA95 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77D620FC95680095EA95 /* TypeAlias.swift */; };
+		3E0F77D720FC95680095EA95 /* Facade+TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77D620FC95680095EA95 /* Facade+TypeAlias.swift */; };
 		3E0F77F620FDF2F00095EA95 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77F520FDF2F00095EA95 /* AppConfig.swift */; };
 		3E0F77F920FECB910095EA95 /* SingletonProtoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77F820FECB910095EA95 /* SingletonProtoc.swift */; };
 		3E0F77FB20FECDC60095EA95 /* Facade+Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77FA20FECDC60095EA95 /* Facade+Singleton.swift */; };
 		3E0F77FF20FEEC280095EA95 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77FE20FEEC270095EA95 /* R.generated.swift */; };
+		3E2112DF210EC140006355AF /* VCAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2112DE210EC140006355AF /* VCAlias.swift */; };
 		3E21FC9E2100922100DEA67A /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21FC9D2100922100DEA67A /* Env.swift */; };
 		3E21FCA42100990B00DEA67A /* Env.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21FCA02100979300DEA67A /* Env.generated.swift */; };
+		3E5B8529210572FD00C3BB53 /* MagicOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B8528210572FD00C3BB53 /* MagicOperators.swift */; };
 		3EA1E195210346FB009B163A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E194210346FB009B163A /* LoginViewController.swift */; };
 		3EA1E19F21034835009B163A /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E19921034835009B163A /* UserApi.swift */; };
 		3EA1E1A021034835009B163A /* FileWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E19A21034835009B163A /* FileWebService.swift */; };
@@ -42,17 +44,19 @@
 		3E0F77D020FB28930095EA95 /* AppRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRoutes.swift; sourceTree = "<group>"; };
 		3E0F77D220FB28EB0095EA95 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		3E0F77D420FC95570095EA95 /* AppTypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypeAlias.swift; sourceTree = "<group>"; };
-		3E0F77D620FC95680095EA95 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		3E0F77D620FC95680095EA95 /* Facade+TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Facade+TypeAlias.swift"; sourceTree = "<group>"; };
 		3E0F77F520FDF2F00095EA95 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		3E0F77F820FECB910095EA95 /* SingletonProtoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonProtoc.swift; sourceTree = "<group>"; };
 		3E0F77FA20FECDC60095EA95 /* Facade+Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Facade+Singleton.swift"; sourceTree = "<group>"; };
 		3E0F77FE20FEEC270095EA95 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		3E11959220F9D3AF003F134D /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E21FC9B2100919F00DEA67A /* Debug.ini */ = {isa = PBXFileReference; lastKnownFileType = text; path = Debug.ini; sourceTree = "<group>"; };
-		3E21FC9C2100919F00DEA67A /* Release.ini */ = {isa = PBXFileReference; lastKnownFileType = text; path = Release.ini; sourceTree = "<group>"; };
+		3E2112DE210EC140006355AF /* VCAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAlias.swift; sourceTree = "<group>"; };
+		3E21FC9B2100919F00DEA67A /* Debug.ini */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Debug.ini; sourceTree = "<group>"; };
+		3E21FC9C2100919F00DEA67A /* Release.ini */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Release.ini; sourceTree = "<group>"; };
 		3E21FC9D2100922100DEA67A /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
-		3E21FC9F2100968B00DEA67A /* LauchMode.ini */ = {isa = PBXFileReference; lastKnownFileType = text; path = LauchMode.ini; sourceTree = "<group>"; };
+		3E21FC9F2100968B00DEA67A /* LauchMode.ini */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = LauchMode.ini; sourceTree = "<group>"; };
 		3E21FCA02100979300DEA67A /* Env.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.generated.swift; sourceTree = "<group>"; };
+		3E5B8528210572FD00C3BB53 /* MagicOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicOperators.swift; sourceTree = "<group>"; };
 		3EA1E194210346FB009B163A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3EA1E19921034835009B163A /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
 		3EA1E19A21034835009B163A /* FileWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileWebService.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 		3E0F77B620FB173D0095EA95 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				3E5BBDFE2105D19600972769 /* Main */,
 				3EA1E1932103468A009B163A /* Auth */,
 			);
 			path = Module;
@@ -109,7 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				3E0F77D420FC95570095EA95 /* AppTypeAlias.swift */,
-				3E0F77CB20FB1B040095EA95 /* Lauch */,
+				3E2112DE210EC140006355AF /* VCAlias.swift */,
+				3E0F77CB20FB1B040095EA95 /* Router */,
 				3EA1E19621034736009B163A /* Net */,
 				3EA1E1AC210355A4009B163A /* Manager */,
 				3E0F77B620FB173D0095EA95 /* Module */,
@@ -145,7 +151,7 @@
 			path = Env;
 			sourceTree = "<group>";
 		};
-		3E0F77CB20FB1B040095EA95 /* Lauch */ = {
+		3E0F77CB20FB1B040095EA95 /* Router */ = {
 			isa = PBXGroup;
 			children = (
 				3E0F77D020FB28930095EA95 /* AppRoutes.swift */,
@@ -154,17 +160,19 @@
 				3E0F77B920FB17B10095EA95 /* Info.plist */,
 				3E0F77C320FB18660095EA95 /* AppIcon.xcassets */,
 			);
-			path = Lauch;
+			path = Router;
 			sourceTree = "<group>";
 		};
 		3E0F77CE20FB22C40095EA95 /* AppFramework */ = {
 			isa = PBXGroup;
 			children = (
-				3EA1E1A5210348D1009B163A /* Ex */,
 				3E0F77D220FB28EB0095EA95 /* Facade.swift */,
-				3E0F77D620FC95680095EA95 /* TypeAlias.swift */,
+				3E0F77D620FC95680095EA95 /* Facade+TypeAlias.swift */,
+				3E5B8527210572BD00C3BB53 /* MagicOperators */,
+				3EA1E1A5210348D1009B163A /* Ex */,
 				3EA1E19721034771009B163A /* BaseClass */,
-				3E0F77F720FECB6D0095EA95 /* Singleton */,
+				3E0F77F720FECB6D0095EA95 /* Facade+Singleton */,
+				3EEABB4A2140DA6B0092FD5B /* Facade+Cache */,
 				3E0F77D820FC98CA0095EA95 /* FacadeProtocol */,
 			);
 			path = AppFramework;
@@ -177,13 +185,13 @@
 			path = FacadeProtocol;
 			sourceTree = "<group>";
 		};
-		3E0F77F720FECB6D0095EA95 /* Singleton */ = {
+		3E0F77F720FECB6D0095EA95 /* Facade+Singleton */ = {
 			isa = PBXGroup;
 			children = (
 				3E0F77FA20FECDC60095EA95 /* Facade+Singleton.swift */,
 				3E0F77F820FECB910095EA95 /* SingletonProtoc.swift */,
 			);
-			path = Singleton;
+			path = "Facade+Singleton";
 			sourceTree = "<group>";
 		};
 		3E11958920F9D3AF003F134D = {
@@ -215,6 +223,21 @@
 				3E0F77CE20FB22C40095EA95 /* AppFramework */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		3E5B8527210572BD00C3BB53 /* MagicOperators */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B8528210572FD00C3BB53 /* MagicOperators.swift */,
+			);
+			path = MagicOperators;
+			sourceTree = "<group>";
+		};
+		3E5BBDFE2105D19600972769 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		3EA1E1932103468A009B163A /* Auth */ = {
@@ -266,6 +289,13 @@
 			children = (
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		3EEABB4A2140DA6B0092FD5B /* Facade+Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Facade+Cache";
 			sourceTree = "<group>";
 		};
 		EB14EF635B4CF89198151052 /* Frameworks */ = {
@@ -485,8 +515,10 @@
 				3E0F77F920FECB910095EA95 /* SingletonProtoc.swift in Sources */,
 				3EA1E1A221034835009B163A /* NetConfig.swift in Sources */,
 				3E0F77F620FDF2F00095EA95 /* AppConfig.swift in Sources */,
+				3E2112DF210EC140006355AF /* VCAlias.swift in Sources */,
+				3E5B8529210572FD00C3BB53 /* MagicOperators.swift in Sources */,
 				3E0F77D120FB28930095EA95 /* AppRoutes.swift in Sources */,
-				3E0F77D720FC95680095EA95 /* TypeAlias.swift in Sources */,
+				3E0F77D720FC95680095EA95 /* Facade+TypeAlias.swift in Sources */,
 				3EA1E19F21034835009B163A /* UserApi.swift in Sources */,
 				3E0F77FB20FECDC60095EA95 /* Facade+Singleton.swift in Sources */,
 				3EA1E1A421034835009B163A /* APIProviderManager.swift in Sources */,
@@ -629,7 +661,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2CPB6X8GX8;
-				INFOPLIST_FILE = "$(SRCROOT)/App/App/Lauch/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/App/App/Router/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -651,7 +683,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2CPB6X8GX8;
-				INFOPLIST_FILE = "$(SRCROOT)/App/App/Lauch/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/App/App/Router/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

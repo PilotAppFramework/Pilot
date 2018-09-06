@@ -36,6 +36,5 @@ class AppRoutes: NSObject {
 //        return MainTabBarController.init()
         return LoginViewController.init()
     }
-    
 }
 
