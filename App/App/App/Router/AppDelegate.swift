@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ = Facade.shared.singleton(type: AppMainDB.self)
         
         initWindow()
-        
+        initHUD()
         
         
 //        _ = Facade.shared.singleton(type: AppUserDB.self,maps: "{\"uid\":\"1\"}")

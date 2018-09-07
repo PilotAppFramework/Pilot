@@ -7,6 +7,14 @@
 //
 
 import Foundation
+import SVProgressHUD
 
 var log = Facade.shared.log
+typealias  hud = SVProgressHUD
+
+func initHUD() {
+    hud.setDefaultStyle(.dark)
+    hud.setMinimumSize(.init(width: 100, height: 80))
+    hud.setMinimumDismissTimeInterval(1.5)
+}
 

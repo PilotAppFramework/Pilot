@@ -20,7 +20,7 @@ class AppMainTabBarController: XXBaseTabBarController {
         
         view.tintColor = AC.textColor
     }
-
+    
     
     var vcList:[(
         title:String,
@@ -28,13 +28,11 @@ class AppMainTabBarController: XXBaseTabBarController {
         iconName_h:UIImage,
         vc:UIViewController
         )] = [
-            //            (title: "通知", iconName_n: #imageLiteral(resourceName: "menu_消息-g"), iconName_h: #imageLiteral(resourceName: "menu_消息-r"), vc: MessageViewController.init()),
-            //            (title: "消息", iconName_n: #imageLiteral(resourceName: "menu_消息-g"), iconName_h: #imageLiteral(resourceName: "menu_消息-r"), vc: AddressFavoriteTableViewController.init()),
-//            (title: "组织", iconName_n: #imageLiteral(resourceName: "menu_通讯录-g"), iconName_h: #imageLiteral(resourceName: "menu_通讯录-r"), vc: OrganizeViewController.init()),
-            //            (title: "首页", iconName_n: #imageLiteral(resourceName: "menu_首页-g"), iconName_h: #imageLiteral(resourceName: "menu_首页-r"), vc: IndexViewController.init()),
-            //            (title: "审定", iconName_n: #imageLiteral(resourceName: "menu_审定-g"), iconName_h: #imageLiteral(resourceName: "menu_审定-r"), vc: WorkViewController.init()),
-            //            (title: "审定", iconName_n: #imageLiteral(resourceName: "menu_审定-g"), iconName_h: #imageLiteral(resourceName: "menu_审定-r"), vc: WorkViewController.init()),
-//            (title: "我的", iconName_n: #imageLiteral(resourceName: "menu_我的-g"), iconName_h: #imageLiteral(resourceName: "menu_我的-r"), vc: MineViewController.init())
+            (title: "通知", iconName_n: #imageLiteral(resourceName: "menu_消息-g"), iconName_h: #imageLiteral(resourceName: "menu_消息-r"), vc: ClassGroupViewController.init()),
+            (title: "组织", iconName_n: #imageLiteral(resourceName: "menu_通讯录-g"), iconName_h: #imageLiteral(resourceName: "menu_通讯录-r"), vc: DiscoveryViewController.init()),
+            (title: "首页", iconName_n: #imageLiteral(resourceName: "menu_首页-g"), iconName_h: #imageLiteral(resourceName: "menu_首页-r"), vc: UIViewController.init()),
+            (title: "审定", iconName_n: #imageLiteral(resourceName: "menu_审定-g"), iconName_h: #imageLiteral(resourceName: "menu_审定-r"), vc: BabyDiaryViewController.init()),
+            (title: "我的", iconName_n: #imageLiteral(resourceName: "menu_我的-g"), iconName_h: #imageLiteral(resourceName: "menu_我的-r"), vc: MineViewController.init())
     ]
     
     func prepareChildVC(){

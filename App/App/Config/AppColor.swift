@@ -16,11 +16,16 @@ class AppColor:NSObject {
     
     public static var current = AppColor.init()
     
+    /// 主题色
     public let mainColor:UIColor = UIColor.init("#c7000b")!
     
+    /// 背景色
     public let backgroundColor:UIColor = UIColor.init("#F5F5F5")!
     
     public let backgroundIndexColor:UIColor = UIColor.init("#F8F8F8")!
+    
+    /// 前景色 (默认白色)
+    public let foregroundColor = UIColor.white
     
     /// 灰白
     public let white_ashen = UIColor.init("#EEEEEE")

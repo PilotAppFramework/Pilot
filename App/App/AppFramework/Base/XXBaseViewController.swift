@@ -16,6 +16,10 @@ class XXBaseViewController: UIViewController {
         if self.view.backgroundColor == nil {
             self.view.backgroundColor = UIColor.white
         }
+        prepareViewController()
     }
     
+    open func prepareViewController(){
+        
+    }
 }

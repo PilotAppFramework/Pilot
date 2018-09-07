@@ -22,6 +22,15 @@
 		3E2112DF210EC140006355AF /* VCAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2112DE210EC140006355AF /* VCAlias.swift */; };
 		3E21FC9E2100922100DEA67A /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21FC9D2100922100DEA67A /* Env.swift */; };
 		3E21FCA42100990B00DEA67A /* Env.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21FCA02100979300DEA67A /* Env.generated.swift */; };
+		3E2F26C9214205D000E1B440 /* ClassGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F26C8214205D000E1B440 /* ClassGroupViewController.swift */; };
+		3E2F26CC2142068100E1B440 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F26CB2142068100E1B440 /* DiscoveryViewController.swift */; };
+		3E2F26CF214206C900E1B440 /* BabyDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F26CE214206C900E1B440 /* BabyDiaryViewController.swift */; };
+		3E2F26D2214206FF00E1B440 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F26D1214206FF00E1B440 /* MineViewController.swift */; };
+		3E2F26D521420A6900E1B440 /* XXTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F26D421420A6900E1B440 /* XXTextField.swift */; };
+		3E2F26D721420BD900E1B440 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F26D621420BD900E1B440 /* AuthViewController.swift */; };
+		3E2F26D92142245400E1B440 /* AutoNextGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F26D82142245300E1B440 /* AutoNextGroup.swift */; };
+		3E2F26DB214228D600E1B440 /* RxSwift+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F26DA214228D600E1B440 /* RxSwift+UIKit.swift */; };
+		3E2F26DD2142652E00E1B440 /* XXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F26DC2142652E00E1B440 /* XXButton.swift */; };
 		3E5B8529210572FD00C3BB53 /* MagicOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B8528210572FD00C3BB53 /* MagicOperators.swift */; };
 		3EA1E195210346FB009B163A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E194210346FB009B163A /* LoginViewController.swift */; };
 		3EA1E19F21034835009B163A /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1E19921034835009B163A /* UserApi.swift */; };
@@ -80,6 +89,15 @@
 		3E21FC9D2100922100DEA67A /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
 		3E21FC9F2100968B00DEA67A /* LauchMode.ini */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = LauchMode.ini; sourceTree = "<group>"; };
 		3E21FCA02100979300DEA67A /* Env.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.generated.swift; sourceTree = "<group>"; };
+		3E2F26C8214205D000E1B440 /* ClassGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassGroupViewController.swift; sourceTree = "<group>"; };
+		3E2F26CB2142068100E1B440 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		3E2F26CE214206C900E1B440 /* BabyDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyDiaryViewController.swift; sourceTree = "<group>"; };
+		3E2F26D1214206FF00E1B440 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		3E2F26D421420A6900E1B440 /* XXTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXTextField.swift; sourceTree = "<group>"; };
+		3E2F26D621420BD900E1B440 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		3E2F26D82142245300E1B440 /* AutoNextGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoNextGroup.swift; sourceTree = "<group>"; };
+		3E2F26DA214228D600E1B440 /* RxSwift+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxSwift+UIKit.swift"; sourceTree = "<group>"; };
+		3E2F26DC2142652E00E1B440 /* XXButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXButton.swift; sourceTree = "<group>"; };
 		3E5B8528210572FD00C3BB53 /* MagicOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicOperators.swift; sourceTree = "<group>"; };
 		3EA1E194210346FB009B163A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3EA1E19921034835009B163A /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
@@ -155,6 +173,10 @@
 		3E0F77B620FB173D0095EA95 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				3E2F26D0214206ED00E1B440 /* Mine */,
+				3E2F26CD214206B100E1B440 /* BabyDiary */,
+				3E2F26CA2142063B00E1B440 /* Discovery */,
+				3E2F26C72142053A00E1B440 /* ClassGroup */,
 				3E5BBDFE2105D19600972769 /* Main */,
 				3EA1E1932103468A009B163A /* Auth */,
 			);
@@ -170,6 +192,7 @@
 				3EA1E19621034736009B163A /* Net */,
 				3EEABB5221410CFD0092FD5B /* Model */,
 				3EA1E1AC210355A4009B163A /* Server */,
+				3E2F26D321420A1C00E1B440 /* Widgets */,
 				3E0F77B620FB173D0095EA95 /* Module */,
 			);
 			path = App;
@@ -283,6 +306,48 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		3E2F26C72142053A00E1B440 /* ClassGroup */ = {
+			isa = PBXGroup;
+			children = (
+				3E2F26C8214205D000E1B440 /* ClassGroupViewController.swift */,
+			);
+			path = ClassGroup;
+			sourceTree = "<group>";
+		};
+		3E2F26CA2142063B00E1B440 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				3E2F26CB2142068100E1B440 /* DiscoveryViewController.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		3E2F26CD214206B100E1B440 /* BabyDiary */ = {
+			isa = PBXGroup;
+			children = (
+				3E2F26CE214206C900E1B440 /* BabyDiaryViewController.swift */,
+			);
+			path = BabyDiary;
+			sourceTree = "<group>";
+		};
+		3E2F26D0214206ED00E1B440 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				3E2F26D1214206FF00E1B440 /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		3E2F26D321420A1C00E1B440 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				3E2F26D421420A6900E1B440 /* XXTextField.swift */,
+				3E2F26D82142245300E1B440 /* AutoNextGroup.swift */,
+				3E2F26DC2142652E00E1B440 /* XXButton.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
 		3E5B8527210572BD00C3BB53 /* MagicOperators */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +371,7 @@
 				3EA1E194210346FB009B163A /* LoginViewController.swift */,
 				3EA1E1AD2103574F009B163A /* RegisterViewController.swift */,
 				3EA1E1AF21035804009B163A /* RefindPasswordViewController.swift */,
+				3E2F26D621420BD900E1B440 /* AuthViewController.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -338,6 +404,7 @@
 		3EA1E1A5210348D1009B163A /* Ex */ = {
 			isa = PBXGroup;
 			children = (
+				3E2F26DA214228D600E1B440 /* RxSwift+UIKit.swift */,
 				3EEABB572141110F0092FD5B /* HandyJSON+SwiftyUserDefaults.swift */,
 				3EA1E1A6210348E4009B163A /* Dictionary+Ex+Net.swift */,
 				3EA1E1A8210348F1009B163A /* String+Ex+Net.swift */,
@@ -654,16 +721,21 @@
 				3EEABB73214119370092FD5B /* XXCellIdProvideProtocol.swift in Sources */,
 				3EEABB7F21411AA60092FD5B /* AppColor.swift in Sources */,
 				3EA1E1A7210348E4009B163A /* Dictionary+Ex+Net.swift in Sources */,
+				3E2F26D721420BD900E1B440 /* AuthViewController.swift in Sources */,
 				3EEABB582141110F0092FD5B /* HandyJSON+SwiftyUserDefaults.swift in Sources */,
+				3E2F26D2214206FF00E1B440 /* MineViewController.swift in Sources */,
 				3EEABB8F214124DC0092FD5B /* AppNavigationController.swift in Sources */,
 				3E0F77D320FB28EB0095EA95 /* Facade.swift in Sources */,
 				3EA1E195210346FB009B163A /* LoginViewController.swift in Sources */,
 				3EEABB74214119370092FD5B /* XXBaseStaticTableViewController.swift in Sources */,
 				3E0F77CD20FB22540095EA95 /* AppDelegate.swift in Sources */,
+				3E2F26D521420A6900E1B440 /* XXTextField.swift in Sources */,
 				3EA1E1A021034835009B163A /* FileWebService.swift in Sources */,
 				3EEABB71214119370092FD5B /* XXBaseContainerViewController.swift in Sources */,
 				3EEABB8121411B120092FD5B /* AppUIConstant.swift in Sources */,
 				3EEABB75214119370092FD5B /* XXBaseNormalTableViewController.swift in Sources */,
+				3E2F26D92142245400E1B440 /* AutoNextGroup.swift in Sources */,
+				3E2F26DB214228D600E1B440 /* RxSwift+UIKit.swift in Sources */,
 				3EEABB912141256D0092FD5B /* AppMainTabBarController.swift in Sources */,
 				3E0F77D520FC95570095EA95 /* AppTypeAlias.swift in Sources */,
 				3EEABB76214119370092FD5B /* XXBasePullDownTableViewController.swift in Sources */,
@@ -676,14 +748,18 @@
 				3EA1E1B021035804009B163A /* RefindPasswordViewController.swift in Sources */,
 				3E0F77F920FECB910095EA95 /* SingletonProtoc.swift in Sources */,
 				3EA1E1A221034835009B163A /* NetConfig.swift in Sources */,
+				3E2F26CF214206C900E1B440 /* BabyDiaryViewController.swift in Sources */,
 				3E0F77F620FDF2F00095EA95 /* AppConfig.swift in Sources */,
+				3E2F26CC2142068100E1B440 /* DiscoveryViewController.swift in Sources */,
 				3E2112DF210EC140006355AF /* VCAlias.swift in Sources */,
 				3E5B8529210572FD00C3BB53 /* MagicOperators.swift in Sources */,
 				3EEABB5621410ECC0092FD5B /* AuthServer.swift in Sources */,
+				3E2F26C9214205D000E1B440 /* ClassGroupViewController.swift in Sources */,
 				3E0F77D120FB28930095EA95 /* AppRoutes.swift in Sources */,
 				3E0F77D720FC95680095EA95 /* Facade+TypeAlias.swift in Sources */,
 				3EEABB72214119370092FD5B /* XXBaseTableViewController.swift in Sources */,
 				3EEABB8B214122300092FD5B /* XXAppNavigationController.swift in Sources */,
+				3E2F26DD2142652E00E1B440 /* XXButton.swift in Sources */,
 				3EA1E19F21034835009B163A /* UserApi.swift in Sources */,
 				3EEABB5421410DD00092FD5B /* TokenData.swift in Sources */,
 				3EEABB512141079B0092FD5B /* AppMainDB.swift in Sources */,
